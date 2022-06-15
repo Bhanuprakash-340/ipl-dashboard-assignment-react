@@ -1,0 +1,153 @@
+.latest-match-content-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Bree Serif';
+  width: 100%;
+  color: #ffffff;
+  margin-bottom: 30px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+}
+
+.latest-extra {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-extra {
+    width: 70%;
+  }
+}
+
+.latest-team-logo {
+  height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-team-logo {
+    height: 130px;
+  }
+}
+
+.line {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+
+.innings-container {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .innings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+    padding-right: 20px;
+  }
+}
+
+.latest-team-name {
+  font-family: 'Bree Serif';
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-team-name {
+    font-size: 22px;
+  }
+}
+
+.date {
+  font-family: 'Bree Serif';
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 22px;
+  }
+}
+
+.venue {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 15px;
+  }
+}
+
+.results {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .results {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+.head {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 23px;
+  }
+}
+
+.answer {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .answer {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-content {
+    padding-left: 20px;
+  }
+}

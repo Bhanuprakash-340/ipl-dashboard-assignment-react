@@ -1,0 +1,88 @@
+.team-matches-app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.team-matches-content-container {
+  width: 90%;
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-content-container {
+    width: 90%;
+    max-width: 768px;
+  }
+}
+
+.team-matches-image {
+  width: 100%;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-heading {
+    font-size: 25px;
+  }
+}
+
+.match-card-container {
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

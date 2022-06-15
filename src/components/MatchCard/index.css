@@ -1,0 +1,76 @@
+.match-card-list {
+  background-color: #000000;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 200px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-list {
+    width: 32%;
+    height: 400px;
+  }
+}
+
+.match-card-image {
+  height: 30px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-image {
+    height: 100px;
+  }
+}
+
+.competing-team {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 22px;
+  }
+}
+
+.result {
+  font-size: 7px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: 'Bree Serif';
+  }
+}
+.status {
+  font-family: 'Bree Serif';
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .status {
+    font-size: 30px;
+  }
+}
+
+.Lost {
+  color: #e31a1a;
+}
+
+.Won {
+  color: #18ed66;
+}
